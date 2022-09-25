@@ -1,7 +1,9 @@
-package com.example.sop_final_63070001.repository;
+package com.example.sop_final_63070001.ProductService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class ProductService {
@@ -10,5 +12,9 @@ public class ProductService {
 
     public ProductService(ProductRepository repository) {
         this.repository = repository;
+    }
+
+    public List<Product> retrieveProduct(){
+        return repository.findAll();
     }
 }

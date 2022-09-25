@@ -1,6 +1,6 @@
-package com.example.sop_final_63070001.repository;
+package com.example.sop_final_63070001.ProductService;
 
-import com.example.sop_final_63070001.pojo.Product;
+
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

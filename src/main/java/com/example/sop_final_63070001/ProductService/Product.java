@@ -1,4 +1,4 @@
-package com.example.sop_final_63070001.pojo;
+package com.example.sop_final_63070001.ProductService;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
